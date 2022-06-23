@@ -1,29 +1,40 @@
-<nav>
-  <h1 class="title">Question of the Day Generator<h1>
-</nav>
+<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Generator</title>
+    <link rel="stylesheet" href="question.css">
+    <script src="generator.js"></script>
+</head>
+
+<body>
+  <nav>
+    <h1 class="title">Question of the Day Generator<h1>
+  </nav>
     
-<div class ="questionDisplay">
-  <p onclick="randomQuestion()"></p>
-</div>
+  <div class ="questionDisplay">
+    <p onclick="randomQuestion()"></p>
+  </div>
  
-    <div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
+      <div id="clockdiv">
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
   </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div>
 
     <div class="black-ball">
         
@@ -34,3 +45,6 @@
         </div>
         
     </div>
+    
+</body>
+</html>
